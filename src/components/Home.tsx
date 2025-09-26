@@ -5,8 +5,7 @@ import telegramLogo from "../assets/logo/telegram-logo.png";
 import linkedinLogo from "../assets/logo/linkedin-logo.png";
 import githubLogo from "../assets/logo/github.png";
 import myPhoto from "../assets/my-photo.jpeg";
-import cvFile from "../assets/vite.svg"; // your CV file
-
+import cvFile from "../assets/Fiorentika-Devasha-Ramadhina-CV.pdf";
 interface Contact {
   name: string;
   img: string;
@@ -189,7 +188,7 @@ function Home() {
           download
           className="bg-sky-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-sky-600 transition-colors"
         >
-          Download My Full CV Here
+          Download Full CV Here
         </a>
       </div>
     </div>

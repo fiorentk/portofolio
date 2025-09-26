@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
+import cvFile from "../assets/Fiorentika-Devasha-Ramadhina-CV.pdf";
+
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
@@ -8,8 +10,8 @@ function Nav() {
   const menuItems = [
     { name: "Home", path: "/" },
     { name: "Projects/Study Case", path: "/projects" },
-    { name: "My Skills and Course Certificates", path: "/skillsandcourses" },
-    { name: "Download My Full CV", path: "/vite.svg", download: true },
+    { name: "Skills and Course Certificates", path: "/skillsandcourses" },
+    { name: "Download Full CV", path: cvFile, download: true },
   ];
 
   const isActive = (path: string) => location.pathname === path;
