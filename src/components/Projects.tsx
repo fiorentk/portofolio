@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Screenshot images
 import homeImg from "../assets/elibrary-project/home.png";
