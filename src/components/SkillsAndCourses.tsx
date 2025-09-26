@@ -1,3 +1,20 @@
+// Import images
+import pythonLogo from "../assets/logo/python-logo.png";
+import fastapiLogo from "../assets/logo/fastapi-logo.png";
+import jwtLogo from "../assets/logo/jwt-logo.png";
+import htmlLogo from "../assets/logo/html5-logo.png";
+import tailwindLogo from "../assets/logo/tailwind-logo.png";
+import jsLogo from "../assets/logo/js-logo.png";
+import tsLogo from "../assets/logo/ts-logo.png";
+import reactLogo from "../assets/logo/react-logo.png";
+import githubLogo from "../assets/logo/github.png";
+import dockerLogo from "../assets/logo/docker-logo.png";
+import linuxLogo from "../assets/logo/linux-command-logo.png";
+import mysqlLogo from "../assets/logo/mysql-logo.png";
+import postgresqlLogo from "../assets/logo/postgresql-logo.png";
+import mssqlLogo from "../assets/logo/msqls-logo.png";
+import figmaLogo from "../assets/logo/figma-logo.png";
+
 interface Skill {
   title: string;
   img: string;
@@ -15,7 +32,7 @@ function SkillsAndCourses() {
   const skills: Skill[] = [
     {
       title: "Python",
-      img: "src/assets/logo/python-logo.png",
+      img: pythonLogo,
       points: [
         "Write clean, maintainable Python code.",
         "Work with scripts, modules, and packages.",
@@ -23,7 +40,7 @@ function SkillsAndCourses() {
     },
     {
       title: "FastAPI",
-      img: "src/assets/logo/fastapi-logo.png",
+      img: fastapiLogo,
       points: [
         "Build RESTful APIs with FastAPI & Pydantic.",
         "Handle request validation and serialization.",
@@ -31,7 +48,7 @@ function SkillsAndCourses() {
     },
     {
       title: "JWT / Security",
-      img: "src/assets/logo/jwt-logo.png",
+      img: jwtLogo,
       points: [
         "Implement JWT-based authentication & authorization.",
         "Secure API endpoints and sensitive data.",
@@ -39,7 +56,7 @@ function SkillsAndCourses() {
     },
     {
       title: "HTML",
-      img: "src/assets/logo/html5-logo.png",
+      img: htmlLogo,
       points: [
         "Write semantic and structured HTML markup.",
         "Structure content efficiently for SEO and accessibility.",
@@ -47,7 +64,7 @@ function SkillsAndCourses() {
     },
     {
       title: "CSS / Tailwind",
-      img: "src/assets/logo/tailwind-logo.png",
+      img: tailwindLogo,
       points: [
         "Style websites with CSS & Tailwind for responsive design.",
         "Use utility classes for quick UI development.",
@@ -55,8 +72,8 @@ function SkillsAndCourses() {
     },
     {
       title: "JS / TS",
-      img: "src/assets/logo/js-logo.png",
-      img2: "src/assets/logo/ts-logo.png",
+      img: jsLogo,
+      img2: tsLogo,
       points: [
         "Write interactive web functionalities.",
         "Use TypeScript for type safety and maintainable code.",
@@ -64,7 +81,7 @@ function SkillsAndCourses() {
     },
     {
       title: "React",
-      img: "src/assets/logo/react-logo.png",
+      img: reactLogo,
       points: [
         "Build component-based UIs.",
         "Manage state and props efficiently.",
@@ -73,19 +90,19 @@ function SkillsAndCourses() {
     },
     {
       title: "Version Control (Git)",
-      img: "src/assets/logo/github.png",
+      img: githubLogo,
       points: [
         "Familiar with version control fundamentals: Git/GitHub, repos, commits, branches, pull requests.",
       ],
     },
     {
       title: "Docker",
-      img: "src/assets/logo/docker-logo.png",
+      img: dockerLogo,
       points: ["Build, run, and manage images and containers using Docker."],
     },
     {
       title: "Linux Commands and Shell Scripting",
-      img: "src/assets/logo/linux-command-logo.png",
+      img: linuxLogo,
       points: [
         "Linux basics, package management, and Bash commands.",
         "Shell scripting with variables, pipes, filters, and cron jobs.",
@@ -93,9 +110,9 @@ function SkillsAndCourses() {
     },
     {
       title: "Databases",
-      img: "src/assets/logo/mysql-logo.png",
-      img2: "src/assets/logo/postgresql-logo.png",
-      img3: "src/assets/logo/msqls-logo.png",
+      img: mysqlLogo,
+      img2: postgresqlLogo,
+      img3: mssqlLogo,
       points: [
         "Write optimized SQL queries for MySQL, PostgreSQL, MSSQL, Redshift.",
         "Create schemas, views, indexes, and optimize query performance.",
@@ -103,7 +120,7 @@ function SkillsAndCourses() {
     },
     {
       title: "Figma",
-      img: "src/assets/logo/figma-logo.png",
+      img: figmaLogo,
       points: [
         "Design wireframes, mockups, and UI components.",
         "Collaborate and prototype using Figma tools.",

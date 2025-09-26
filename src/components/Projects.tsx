@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-// Screenshot images
+// Import images
 import homeImg from "../assets/elibrary-project/home.png";
 import allBooksImg from "../assets/elibrary-project/all-books.png";
 import borrowImg from "../assets/elibrary-project/borrow.png";

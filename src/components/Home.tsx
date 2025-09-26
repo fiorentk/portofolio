@@ -1,3 +1,12 @@
+// Import images
+import emailLogo from "../assets/logo/email-logo.png";
+import waLogo from "../assets/logo/wa-logo.png";
+import telegramLogo from "../assets/logo/telegram-logo.png";
+import linkedinLogo from "../assets/logo/linkedin-logo.png";
+import githubLogo from "../assets/logo/github.png";
+import myPhoto from "../assets/my-photo.jpeg";
+import cvFile from "../assets/vite.svg"; // your CV file
+
 interface Contact {
   name: string;
   img: string;
@@ -9,31 +18,31 @@ function Home() {
   const contacts: Contact[] = [
     {
       name: "Email",
-      img: "src/assets/logo/email-logo.png",
+      img: emailLogo,
       link: "mailto:fiorentikadr@gmail.com",
       desc: "fiorentikadr@gmail.com",
     },
     {
       name: "WhatsApp",
-      img: "src/assets/logo/wa-logo.png",
+      img: waLogo,
       link: "https://wa.me/+6281230192255",
       desc: "+62 812-3019-2255",
     },
     {
       name: "Telegram",
-      img: "src/assets/logo/telegram-logo.png",
+      img: telegramLogo,
       link: "https://t.me/fiorentkdr",
       desc: "@fiorentkdr",
     },
     {
       name: "LinkedIn",
-      img: "src/assets/logo/linkedin-logo.png",
-      link: "https://www.linkedin.com/in/fiorentika-devasha-ramadhina-936788228/ ",
+      img: linkedinLogo,
+      link: "https://www.linkedin.com/in/fiorentika-devasha-ramadhina-936788228/",
       desc: "Fiorentika Devasha Ramadhina",
     },
     {
       name: "GitHub",
-      img: "src/assets/logo/github.png",
+      img: githubLogo,
       link: "https://github.com/fiorentk",
       desc: "fiorentk",
     },
@@ -44,7 +53,7 @@ function Home() {
       {/* About Me */}
       <div className="w-full flex flex-col md:flex-row items-center gap-8 bg-white border border-gray-200 rounded-xl shadow-md p-8 hover:shadow-lg hover:scale-105 transition-all duration-200">
         <img
-          src="src/assets/my-photo.jpeg"
+          src={myPhoto}
           alt="My Photo"
           className="w-40 h-40 md:w-48 md:h-48 rounded-full shadow-lg object-cover"
         />
@@ -176,8 +185,8 @@ function Home() {
       {/* Download CV */}
       <div>
         <a
-          href="src/assets/vite.svg"
-          download="/vite.svg"
+          href={cvFile}
+          download
           className="bg-sky-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-sky-600 transition-colors"
         >
           Download My Full CV Here
