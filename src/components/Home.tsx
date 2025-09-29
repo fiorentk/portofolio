@@ -70,6 +70,9 @@ function Home() {
             <span className="border border-sky-200 text-sky-700 px-4 py-2 rounded-full text-sm">
               ID Indonesia
             </span>
+            <span className="border border-sky-200 text-sky-700 px-4 py-2 rounded-full text-sm">
+              Remote/WFH Only
+            </span>
           </div>
           <p className="text-gray-700 mb-6 text-base md:text-lg">
             I’m a junior backend developer with a solid foundation in building
