@@ -5,7 +5,7 @@ import telegramLogo from "../assets/logo/telegram-logo.png";
 import linkedinLogo from "../assets/logo/linkedin-logo.png";
 import githubLogo from "../assets/logo/github.png";
 import myPhoto from "../assets/my-photo.jpeg";
-import cvFile from "../assets/Fiorentika-Devasha-Ramadhina-CV.pdf";
+import cvFile from "../assets/Fiorentika-Devasha-Ramadhina-CV-BE.pdf";
 interface Contact {
   name: string;
   img: string;

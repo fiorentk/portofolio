@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import cvFile from "../assets/Fiorentika-Devasha-Ramadhina-CV.pdf";
+import cvFile from "../assets/Fiorentika-Devasha-Ramadhina-CV-BE.pdf";
 
 function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
