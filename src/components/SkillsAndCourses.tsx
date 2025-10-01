@@ -14,6 +14,7 @@ import mysqlLogo from "../assets/logo/mysql-logo.png";
 import postgresqlLogo from "../assets/logo/postgresql-logo.png";
 import mssqlLogo from "../assets/logo/msqls-logo.png";
 import figmaLogo from "../assets/logo/figma-logo.png";
+import awsLogo from "../assets/logo/aws-logo.png";
 
 interface Skill {
   title: string;
@@ -89,6 +90,16 @@ function SkillsAndCourses() {
       ],
     },
     {
+      title: "Databases",
+      img: mysqlLogo,
+      img2: postgresqlLogo,
+      img3: mssqlLogo,
+      points: [
+        "Write optimized SQL queries for MySQL, PostgreSQL, MSSQL, Redshift.",
+        "Create schemas, views, indexes, and optimize query performance.",
+      ],
+    },
+    {
       title: "Version Control (Git)",
       img: githubLogo,
       points: [
@@ -109,15 +120,15 @@ function SkillsAndCourses() {
       ],
     },
     {
-      title: "Databases",
-      img: mysqlLogo,
-      img2: postgresqlLogo,
-      img3: mssqlLogo,
+      title: "AWS",
+      img: awsLogo,
       points: [
-        "Write optimized SQL queries for MySQL, PostgreSQL, MSSQL, Redshift.",
-        "Create schemas, views, indexes, and optimize query performance.",
+        "Basic EC2 instance setup and management",
+        "Store & retrieve files using S3",
+        "Familiar with IAM for user/role setup",
       ],
     },
+
     {
       title: "Figma",
       img: figmaLogo,
